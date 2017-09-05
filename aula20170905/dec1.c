@@ -11,7 +11,7 @@ float main ()
 	if (n%3==0)
 	printf("mult.3 ");
 	if (n%5==0)
-	printf("mult.5 ");
+	printf("mult.5: ");
 	if (n%7==0)
 	printf("mult.7 ");	
 	return 0;
