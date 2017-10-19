@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
 #include <time.h>
 
@@ -17,5 +18,5 @@ int main(){
 	printf("\nInsira 1 para repetir.\n");
 	scanf("%d",&op);
 	}while(op == 1);
-	return 0;
+	system("pause");
 }

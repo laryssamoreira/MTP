@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <iostream>
 float main(){
 	float b, pot=1;
 	int p,i=0;
@@ -12,5 +12,5 @@ float main(){
 		i++;
 	}while(i<p);
 	printf("O resultado de %.0f elevado a %.0d e %.0f.\n", b, p, pot);
-	return 0;
+	system("pause");
 }

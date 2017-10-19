@@ -1,4 +1,5 @@
 #include <stdio.h>
+using namespace std;
 
 int main(){
 	int l=0, a=0;
@@ -6,5 +7,6 @@ int main(){
 	scanf("%d",&l);
 	a = l*l;
 	printf("\nA area e: %d\n",a);
+	system("pause");
 	return 0;
 }

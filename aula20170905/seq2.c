@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main(){
 	int b=0, h=0, a=0;
@@ -8,5 +10,6 @@ int main(){
 	scanf("%d",&h);
 	a = b*h;
 	printf("\nA area e: %d\n",a);
+	system("pause");
 	return 0;
 }

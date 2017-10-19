@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
 #include <time.h>
 
@@ -15,5 +16,5 @@ int main(){
 		printf("O numero %d informado, somado ao %d, gerado aleatoriamente, resulta em %d ,que e um numero par.\n", a, t, s);
 	else
 		printf("O numero %d informado, somado ao %d, gerado aleatoriamente, resulta em %d ,que e um numero impar.\n", a, t, s);
-	return 0;
+	system("pause");
 }

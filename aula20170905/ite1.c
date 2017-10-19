@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <iostream>
 float main(){
 	float a,fat=1;
 	printf("Insira o numero para se calcular o fatorial:\n");
@@ -7,5 +7,5 @@ float main(){
 	for(int i=a;i>1; i--)
 		fat = fat*i;
 	printf("O fatorial de %.0f e %.0f\n", a, fat);
-	return 0;
+	system("pause");
 }
