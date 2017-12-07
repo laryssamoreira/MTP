@@ -18,5 +18,5 @@ int main(){
 	printf("\nInsira 1 para repetir.\n");
 	scanf("%d",&op);
 	}while(op == 1);
-	system("pause");
+	return 0;
 }
