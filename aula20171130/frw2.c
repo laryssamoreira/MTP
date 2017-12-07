@@ -41,7 +41,7 @@ int main () {
     printf("Insira o numero de dados: ");
     scanf("%d", &n);
     printf("Insira o nome do arquivo: ");
-    scanf("%s", nome);
+    scanf("%s", &nome);
     cria(n, nome);
     return 0;
 }
