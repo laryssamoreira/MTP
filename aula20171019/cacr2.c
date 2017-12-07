@@ -24,10 +24,11 @@ float raiz(int d, int a, int b, int c){
 	return 0;	
 }
 
-void main(){
+int main(){
 	int a, b, c, x;
 	printf("Insira os coeficientes 'a', 'b' e 'c':\n");
 	scanf("%d %d %d", &a, &b, &c);
 	x = delta(a,b,c);
 	raiz(x,a,b,c);
+	return 0;
 }
