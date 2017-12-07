@@ -7,5 +7,5 @@ float main(){
 	for(int i=a;i>1; i--)
 		fat = fat*i;
 	printf("O fatorial de %.0f e %.0f\n", a, fat);
-	system("pause");
+	return 0;
 }
