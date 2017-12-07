@@ -12,5 +12,5 @@ float main(){
 		i++;
 	}while(i<p);
 	printf("O resultado de %.0f elevado a %.0d e %.0f.\n", b, p, pot);
-	system("pause");
+	return 0;
 }
